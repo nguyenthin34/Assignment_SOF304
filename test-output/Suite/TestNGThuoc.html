@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  TestNGThuoc</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNGThuoc</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 27 17:07:46 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1172 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC011_insertFailed()'><b>TTT_TC011_insertFailed</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: OiBanOi, NT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC017_selectallFailed()'><b>TTT_TC017_selectallFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC003_findByIDFailed()'><b>TTT_TC003_findByIDFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC012_updateSuccess()'><b>TTT_TC012_updateSuccess</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: 10000, OiBanOi, NT1, DVT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC015_updateFailed()'><b>TTT_TC015_updateFailed</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: 10000, OiBanOi, NT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC004_findByIDNhomThuocSuccess()'><b>TTT_TC004_findByIDNhomThuocSuccess</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: NT1</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC002_findByIDFailed()'><b>TTT_TC002_findByIDFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC016_selectallSuccess()'><b>TTT_TC016_selectallSuccess</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC001_findByIDSuccess()'><b>TTT_TC001_findByIDSuccess</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: 10000</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC005_findByIDNhomThuocFailed()'><b>TTT_TC005_findByIDNhomThuocFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC009_insertFailed()'><b>TTT_TC009_insertFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC007_insertSuccess()'><b>TTT_TC007_insertSuccess</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: OiBanOi, NT1, DVT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC014_updateFailed()'><b>TTT_TC014_updateFailed</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: 10000, OiBanOi, DVT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC013_updateFailed()'><b>TTT_TC013_updateFailed</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: OiBanOi, NT1, DVT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC008_insertFailed()'><b>TTT_TC008_insertFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC006_findByIDNhomThuocFailed()'><b>TTT_TC006_findByIDNhomThuocFailed</b><br>Test class: com.poly.TestCase.ThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+<tr>
+<td title='com.poly.TestCase.ThuocTest.TTT_TC0010_insertFailed()'><b>TTT_TC0010_insertFailed</b><br>Test class: com.poly.TestCase.ThuocTest<br>Parameters: OiBanOi, DVT1, Uong, Heroin, Vien nen, 2000 nghin 1 vien, Viet Nam</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.ThuocTest@385e9564</td></tr>
+</table><p>
+</body>
+</html>

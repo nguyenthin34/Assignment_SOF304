@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNgTraHang">
+  <parameter name="ID_HDTH" value="1"></parameter>
+  <parameter name="ID_HDB" value="4"></parameter>
+  	<parameter name="MoTa" value="khach che khong co mau hong"></parameter>
+  	<parameter name="TienCanTra" value="10000"></parameter>
+  	<parameter name="NgayLap_HD" value="2021-07-26"></parameter>
+  	<parameter name="NguoiTao" value="PH12915"></parameter>
+    <classes>
+      <class name="com.poly.TestCase.TraHangTest"/>
+    </classes>
+  </test> <!-- TestNgTraHang -->
+</suite> <!-- Suite -->

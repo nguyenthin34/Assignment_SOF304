@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGBanHang">
+  <parameter name="ID_HDB" value="4"></parameter>
+  	<parameter name="SDT_KH" value="123456786"></parameter>
+  	<parameter name="TongTien" value="10000"></parameter>
+  	<parameter name="NgayLap_HD" value="2021-08-21"></parameter>
+  	<parameter name="NguoiTao" value="PH12915"></parameter>
+    <classes>
+      <class name="com.poly.TestCase.BanHangTest"/>
+    </classes>
+  </test> <!-- TestNGHoaDonBan -->
+</suite> <!-- Suite -->

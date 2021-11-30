@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGConectDatabase">
+  	<parameter name="temphost" value="LAPTOP-QQ0D4I19"></parameter>
+  	<parameter name="tempuser" value="sa"></parameter>
+  	<parameter name="temppass" value="songlong"></parameter>
+  	<parameter name="tempdb" value="ThuocTay"></parameter>
+  	<parameter name="tempport" value="1433"></parameter>
+  <classes>
+      <class name="com.poly.TestCase.ConnectDatabaseTest"/>
+    </classes>
+  </test> <!-- TestNGConectDatabase -->
+</suite> <!-- Suite -->

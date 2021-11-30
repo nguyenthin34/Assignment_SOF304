@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGDonViTinh">
+  	 <parameter name="ID_DVT" value="DVT9"></parameter>
+  <parameter name="Ten_DVT" value="DVT 9"></parameter>
+  <parameter name="IDDVT" value="DVT1"></parameter>
+    <classes>
+      <class name="com.poly.TestCase.DonViTinhTest"/>
+    </classes>
+  </test> <!-- TestNgDonViTinh -->
+</suite> <!-- Suite -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="TestNGPhieuChi">
+		<parameter name="NgayLapPC" value="2021-08-21"></parameter>
+		<parameter name="NguoiLap" value="PH12915"></parameter>
+		<parameter name="TienNhapThuoc" value="19090"></parameter>
+		<parameter name="TienTraHang" value="2000"></parameter>
+		<classes>
+			<class name="com.poly.TestCase.PhieuChiTest" />
+		</classes>
+	</test> <!-- TestNGPhieuChi -->
+</suite> <!-- Suite -->

@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  TestNGNguoiDung</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNGNguoiDung</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 27 17:41:14 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1597 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC021_update_passFailed()'><b>ND_TC021_update_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: ID97, Ahiihii, 096483JQKA, thinn@gmail.com, true, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC016_updateFailed()'><b>ND_TC016_updateFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC019_update_passFailed()'><b>ND_TC019_update_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC024_insertFailed()'><b>ND_TC024_insertFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC010_insertFailed()'><b>ND_TC010_insertFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC002_findbyIDFailed()'><b>ND_TC002_findbyIDFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC005_forget_passFailed()'><b>ND_TC005_forget_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC006_forget_passFailed()'><b>ND_TC006_forget_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC013_updateSuccess()'><b>ND_TC013_updateSuccess</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, false, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC003_findbyIDFailed()'><b>ND_TC003_findbyIDFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC018_update_passFailed()'><b>ND_TC018_update_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC023_findbyIDFailed()'><b>ND_TC023_findbyIDFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC004_forget_passSuccess()'><b>ND_TC004_forget_passSuccess</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: PH12915</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC022_update_passFailed()'><b>ND_TC022_update_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: ID97, Ahiihii, 096483JQKA, thinn@gmail.com, true, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC001_findbyIDSuccess()'><b>ND_TC001_findbyIDSuccess</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: PH12915</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC012_selectAllFailed()'><b>ND_TC012_selectAllFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC025_insertFailed()'><b>ND_TC025_insertFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC009_insertFailed()'><b>ND_TC009_insertFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC007_insertSuccess()'><b>ND_TC007_insertSuccess</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: ID97, Ahiihii, 096483JQKA, thinn@gmail.com, true, false, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC011_selectAllSuccess()'><b>ND_TC011_selectAllSuccess</b><br>Test class: com.poly.TestCase.NguoiDungTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC014_updateFailed()'><b>ND_TC014_updateFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC020_update_passFailed()'><b>ND_TC020_update_passFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC017_update_passSuccess()'><b>ND_TC017_update_passSuccess</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: ID97, Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC008_insertFailed()'><b>ND_TC008_insertFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+<tr>
+<td title='com.poly.TestCase.NguoiDungTest.ND_TC015_updateFailed()'><b>ND_TC015_updateFailed</b><br>Test class: com.poly.TestCase.NguoiDungTest<br>Parameters: Ahiihii, 096483JQKA, thinn@gmail.com, true, 123456, true</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.NguoiDungTest@192c3f1e</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>TestNG:  TestNGSanPhamThuoc</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestNGSanPhamThuoc</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>27/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Nov 27 16:47:37 ICT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2433 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC016_UpdateSuccess()'><b>SPT_TC016_UpdateSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 100001, 10003, NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC021_InsertFailed()'><b>SPT_TC021_InsertFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003, NCC1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC001_findByIDSuccess()'><b>SPT_TC001_findByIDSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 100001</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC014_selectallSuccess()'><b>SPT_TC014_selectallSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC018_UpdateFailed()'><b>SPT_TC018_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003, NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC024_UpdateFailed()'><b>SPT_TC024_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 100001, NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC022_UpdateFailed()'><b>SPT_TC022_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003, NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC005_findByIDThuocFailed()'><b>SPT_TC005_findByIDThuocFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC002_findByIDFailed()'><b>SPT_TC002_findByIDFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC006_findByIDThuocFailed()'><b>SPT_TC006_findByIDThuocFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC023_UpdateFailed()'><b>SPT_TC023_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003, NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC012_InsertFailed()'><b>SPT_TC012_InsertFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC013_InsertFailed()'><b>SPT_TC013_InsertFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC026_UpdateFailed()'><b>SPT_TC026_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 100001, 10003, NCC1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC010_findSoLuongFailed()'><b>SPT_TC010_findSoLuongFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC017_UpdateFailed()'><b>SPT_TC017_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC008_findConHangFailed()'><b>SPT_TC008_findConHangFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC019_InsertFailed()'><b>SPT_TC019_InsertFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC009_findSoLuongSuccess()'><b>SPT_TC009_findSoLuongSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC025_UpdateFailed()'><b>SPT_TC025_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 100001, 10003, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC004_findByIDThuocSuccess()'><b>SPT_TC004_findByIDThuocSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC003_findByIDFailed()'><b>SPT_TC003_findByIDFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC007_findConHangSuccess()'><b>SPT_TC007_findConHangSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC011_InsertSuccess()'><b>SPT_TC011_InsertSuccess</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003, NCC1, T1, 2025-12-31, 234, 234, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC027_UpdateFailed()'><b>SPT_TC027_UpdateFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 100001, NCC1, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC015_selectallFailed()'><b>SPT_TC015_selectallFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+<tr>
+<td title='com.poly.TestCase.SanPhamThuocTest.SPT_TC020_InsertFailed()'><b>SPT_TC020_InsertFailed</b><br>Test class: com.poly.TestCase.SanPhamThuocTest<br>Parameters: 10003, T1, 2025-12-31, 234.0, 234.0, 123</td>
+<td></td>
+<td>0</td>
+<td>com.poly.TestCase.SanPhamThuocTest@7494f96a</td></tr>
+</table><p>
+</body>
+</html>

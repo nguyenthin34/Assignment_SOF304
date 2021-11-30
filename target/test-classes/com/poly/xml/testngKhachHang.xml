@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGKhachHang">
+  <parameter name="SDT_KH" value="032871562"></parameter>
+  <parameter name="Ten_KH" value="Kha Pank"></parameter>
+  <parameter name="Email_KH" value="abc@gmail.com"></parameter>
+  <parameter name="DiaChi" value="Ha Noi"></parameter>
+   <parameter name="SDT_kh" value="12334234"></parameter>
+    <classes>
+      <class name="com.poly.TestCase.KhachHangTest"/>
+    </classes>
+  </test> <!-- TestNGKhachHang -->
+</suite> <!-- Suite -->

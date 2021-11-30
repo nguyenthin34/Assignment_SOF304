@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-29T09:33:32 ICT" name="Suite" finished-at="2021-11-29T09:33:40 ICT" duration-ms="8486">
+    <groups>
+    </groups>
+    <test started-at="2021-11-29T09:33:32 ICT" name="TestNgLogin" finished-at="2021-11-29T09:33:40 ICT" duration-ms="8486">
+      <class name="com.poly.TestCase.Login">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.poly.TestCase.Login@609cd4d8]" started-at="2021-11-29T09:33:32 ICT" name="suiteSetup" finished-at="2021-11-29T09:33:34 ICT" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method signature="lauchWebsite()[pri:1, instance:com.poly.TestCase.Login@609cd4d8]" started-at="2021-11-29T09:33:34 ICT" name="lauchWebsite" finished-at="2021-11-29T09:33:38 ICT" duration-ms="3801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchWebsite -->
+        <test-method signature="filllogin()[pri:2, instance:com.poly.TestCase.Login@609cd4d8]" started-at="2021-11-29T09:33:38 ICT" name="filllogin" finished-at="2021-11-29T09:33:39 ICT" duration-ms="1192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filllogin -->
+        <test-method signature="dologin()[pri:3, instance:com.poly.TestCase.Login@609cd4d8]" started-at="2021-11-29T09:33:39 ICT" name="dologin" finished-at="2021-11-29T09:33:40 ICT" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dologin -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.poly.TestCase.Login@609cd4d8]" started-at="2021-11-29T09:33:40 ICT" name="suiteTearDown" finished-at="2021-11-29T09:33:40 ICT" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.poly.TestCase.Login -->
+    </test> <!-- TestNgLogin -->
+  </suite> <!-- Suite -->
+</testng-results>

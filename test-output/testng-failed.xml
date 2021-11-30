@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNGTuThuoc(failed)">
+    <parameter name="ID_Tu" value="T8"/>
+    <parameter name="TenTu" value="Tủ 9"/>
+    <parameter name="IDTu" value="T9"/>
+    <classes>
+      <class name="com.poly.TestCase.TuThuocTest">
+        <methods>
+          <include name="TT_TC005_UpdateFailed"/>
+          <include name="suiteTearDown"/>
+          <include name="TT_TC007_DeleteSuccess" invocation-numbers="0"/>
+          <include name="TT_TC010_FindFailed"/>
+          <include name="TT_TC004_UpdateSuccess" invocation-numbers="0"/>
+          <include name="connectDatabase"/>
+          <include name="TT_TC003_insertFailed"/>
+          <include name="TT_TC011_FindListSuccess"/>
+          <include name="TT_TC002_insertFailed"/>
+          <include name="TT_TC008_DeleteFailed"/>
+          <include name="TT_TC009_FindSuccess" invocation-numbers="0"/>
+          <include name="TT_TC006_UpdateFailed"/>
+          <include name="TT_TC001_insertSuccess" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.poly.TestCase.TuThuocTest -->
+    </classes>
+  </test> <!-- TestNGTuThuoc(failed) -->
+</suite> <!-- Failed suite [Suite] -->

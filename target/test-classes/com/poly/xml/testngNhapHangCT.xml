@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGNhapHangCT">
+  <parameter name="ID_HDN" value="1"></parameter>
+  <parameter name="ID_Thuoc" value="10000"></parameter>
+  <parameter name="SoLuong" value="100"></parameter>
+  <parameter name="GiaNhap" value="10000"></parameter>
+  <parameter name="HanSuDung" value="2021-12-31"></parameter>
+  
+  	<classes>
+      <class name="com.poly.TestCase.NhapHangCTTest"/>
+    </classes>
+  </test> <!-- TestNGNhapHangCT -->
+</suite> <!-- Suite -->

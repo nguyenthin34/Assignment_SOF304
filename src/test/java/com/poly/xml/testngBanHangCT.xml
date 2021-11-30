@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGBanHangCT">
+  <parameter name="ID_HDB" value="1"></parameter>
+  <parameter name="Ma_Thuoc" value="100000"></parameter>
+  <parameter name="SoLuong" value="100"></parameter>
+  <parameter name="GiaBan" value="1000"></parameter>
+    <classes>
+      <class name="com.poly.TestCase.BanHangCTTest"/>
+    </classes>
+  </test> <!-- TestNGBanHangCT -->
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestNGThuoc">
+  <parameter name="Ten_Thuoc" value="OiBanOi"></parameter>
+  <parameter name="ID_NhomThuoc" value="NT1"></parameter>
+  <parameter name="ID_DVT" value="DVT1"></parameter>
+  <parameter name="Cach_Dung" value="Uong"></parameter>
+  <parameter name="HoatChat" value="Heroin"></parameter>
+  <parameter name="HamLuong" value="Vien nen"></parameter>
+  <parameter name="DongGoi" value="2000 nghin 1 vien"></parameter>
+  <parameter name="NoiSanXuat" value="Viet Nam"></parameter>
+  <parameter name="ID_Thuoc" value="10000"></parameter>
+    <classes>
+      <class name="com.poly.TestCase.ThuocTest"/>
+    </classes>
+  </test> <!-- TestNGThuoc -->
+</suite> <!-- Suite -->
